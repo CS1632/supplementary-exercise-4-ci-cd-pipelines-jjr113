@@ -59,8 +59,7 @@ jobs:
     permissions:
       contents: read
 
-    steps:
-    
+    steps: 
     - name: Restore cached build
       uses: actions/cache@v3
       with:
